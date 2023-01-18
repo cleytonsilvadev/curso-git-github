@@ -1,0 +1,6 @@
+git init-> serve para iniciar o diretorio no git
+
+git add nome-do-arquivo-> então seu status muda para ‘tracked’
+
+git commit -m -> “Iformação importante sobre a tarefa realizada”.
+
