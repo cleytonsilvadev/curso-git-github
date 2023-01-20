@@ -1,0 +1,88 @@
+git init-> serve para iniciar o diretorio no git
+
+git add nome-do-arquivo-> então seu status muda para ‘tracked’
+
+git commit -m -> “Informação importante sobre a tarefa realizada”.
+git commit --amend -m 
+
+git status -> status do projeto
+
+git restore <file> 
+
+git config user.name-> modo local para publico
+	    --global  .email-> modo global  se caso for um pc proprio	
+
+git add <file> add novo arquivo
+git add . -> all	
+
+git commit -m "meu primeiro commit"
+
+
+git log -> verificar id do commit
+	  '--online'	
+
+git checkout "id" -> navengando nos commit
+git checkout "master"-> voltando pra o atual
+
+git mv index.hmtl index2.html-> renomeia
+
+git rm <file>-> deletar arquivo
+
+git diff --staged -> visualiza as modificaçoes 
+
+git reset HEAD --hard-> retornar pra o estagio anterior todos os arquivos
+git reset HEAD^ --hard
+
+
+--------------------------TRABALHANDO COM BRANCHES----------------------------
+
+git branch <nome>              |--> criando a branch
+modo 2 git checkout -b "<nome>"|
+
+git checkout "<nome>" -> saindo da master e indo pra branch
+
+git branch -D <nome>  --> DELETA a branch
+
+
+git rebase <nome > junta branch com o master
+
+
+--------------------------trabalhando com varias pessoas ao mesmo tempo----------------------
+
+git clone <local do arquivo> . ---> clonando o repositorio
+.ls 
+.configurar novo usuario
+
+git push 
+
+
+git fetch--> baixa os arquivos sem fazer o merge
+git rebase-> pra atualizar
+
+git pull--> ctrl+o pra salvar depois ctrol+x para sair  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
