@@ -62,6 +62,14 @@ git rebase-> pra atualizar
 git pull--> ctrl+o pra salvar depois ctrol+x para sair  
 
 
+git init --bare --> centralizador 
+
+
+git tag <v1.0> --->para se guia em que versão se encontra
+git switch - c <correcoes-v1.0>
+
+
+
 
 
 
